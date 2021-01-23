@@ -1,6 +1,6 @@
 {
   "name": "fast-exponential",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "implementation of calculating exponential for big number in log(n) time complexity",
   "main": "index.js",
   "scripts": {

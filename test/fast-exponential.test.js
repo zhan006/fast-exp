@@ -1,4 +1,4 @@
-const fastExp = require('./fast-exp')
+const fastExp = require('./fast-exponential')
 describe("fast-exp works",()=>{
     it("should correctly output for right value for simple exponation",()=>{
         expect(fastExp(2,10)).toBe(1024)

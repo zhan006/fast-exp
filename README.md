@@ -1,16 +1,16 @@
-#  fast-exp
+#  fast-exponential
 
-An implementation of fast exponentiation that can calculate exponential for big numbers in linear time complexity
+An implementation of fast exponentiation that can calculate exponential for big numbers in log(n) time complexity
 ## Install
 
 ```
-npm install fast-exp
+npm install fast-exponential
 ```
 
 ## Usage
 
 ```
-const fastExp = require("fast-exp")
+const fastExp = require("fast-exponential")
 console.log(fastExp(2,10)) //1024
 ```
 

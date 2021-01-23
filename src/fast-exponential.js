@@ -19,4 +19,3 @@ module.exports = fastExp = (x, n)=>{
     return res
     }
 }
-console.log(fastExp(2,-10))

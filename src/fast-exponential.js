@@ -1,4 +1,9 @@
-
+/*
+@param x This is the base
+@param n This is the power
+@param mod Optional modulus
+@return x^n if mod is not specified, else x^n % mod
+*/
 module.exports = fastExp = (x, n, mod = null)=>{
     //check if n is an integer
     if(n % 1 != 0) throw new Error("n should not be a float")
